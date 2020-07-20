@@ -1,6 +1,7 @@
 {
   "name": "bookmarkye/utiltool",
   "description": "Highly opinionated mocking framework for PHP 7.2+",
+  "version":"1.0.1-dev",
   "keywords": [
     "Bookmarkye",
     "tool",
@@ -18,6 +19,8 @@
     }
   ],
   "require": {
+    "php":">=7.2",
+    "ext-swoole":"*",
     "phpoffice/phpspreadsheet": "*",
     "mongodb/mongodb": "^1.6",
     "aliyuncs/oss-sdk-php": "^2.3",
